@@ -15,21 +15,21 @@ import { Post } from "./pages/post/Post.jsx";
 const App = () => {
   const { t } = useTranslation();
   return (
-    <GlobalStyle>
-      <MainContainerStyles>
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/services" element={<Services />} />
-          <Route path="/service" element={<Service />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/contact" element={<Contact />} />
-          <Route path="/blog" element={<Blog />} />
-          <Route path="/post" element={<Post />} />
-        </Routes>
-        {/* <h1>{t("hello")}</h1> */}
-        <Navbar />
-      </MainContainerStyles>
-    </GlobalStyle>
+    // <GlobalStyle>
+    <MainContainerStyles>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/services" element={<Services />} />
+        <Route path="/service" element={<Service />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="/blog" element={<Blog />} />
+        <Route path="/post" element={<Post />} />
+      </Routes>
+      {/* <h1>{t("hello")}</h1> */}
+      <Navbar />
+    </MainContainerStyles>
+    // </GlobalStyle>
   );
 };
 
