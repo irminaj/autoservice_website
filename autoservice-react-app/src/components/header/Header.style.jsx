@@ -53,10 +53,10 @@ export const WorkingHoursLowerTextStyle = styled.p`
 export const HeaderImageContainerStyle = styled.div`
   width: 50%;
   height: 100%;
+  display: flex;
+  justify-content: flex-end;
 `;
 
 export const HeaderImageStyle = styled.img`
-  padding: 0;
-  width: 100%;
-  height: 100%;
+  width: 700px;
 `;

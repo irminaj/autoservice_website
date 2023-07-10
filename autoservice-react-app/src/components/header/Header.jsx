@@ -11,7 +11,7 @@ import {
   WorkingHoursTextContainerStyle,
   WorkingHoursTopTextStyle,
 } from "./Header.style";
-import HeaderImage from "../../assets/HeaderImage.jpg";
+import HeaderImage from "../../assets/HeaderImage.svg";
 import { PrimaryButton } from "../buttons/primaryButton/PrimaryButton";
 import ClockIcon from "../../assets/ClockIcon.svg";
 

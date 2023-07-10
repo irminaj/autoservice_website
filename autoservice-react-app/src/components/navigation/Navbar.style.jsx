@@ -2,7 +2,7 @@ import styled from "styled-components";
 import { Link } from "react-router-dom";
 
 export const NavigationContainerStyle = styled.div`
-  width: 85%;
+  width: 80%;
   padding: 30px 0;
   margin: 0 auto;
   display: flex;
@@ -29,7 +29,7 @@ export const NavigationLinksStyle = styled.li``;
 
 export const StyledLink = styled(Link)`
   text-decoration: none;
-  margin-left: 20px;
+  padding-left: 20px;
   font-family: ${(props) => props.theme.fontFamily[0]};
   font-size: ${(props) => props.theme.fontSizes.p2};
   color: ${(props) => props.theme.colors.black};
@@ -37,12 +37,12 @@ export const StyledLink = styled(Link)`
 `;
 
 export const AssistanceContainerStyle = styled.div`
-  margin-left: 20px;
+  padding-left: 20px;
   display: flex;
 `;
 export const AssistanceIconStyle = styled.img`
   width: 40px;
-  margin-right: 10px;
+  padding-right: 10px;
 `;
 
 export const AssistanceTextContainerStyle = styled.div`
