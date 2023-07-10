@@ -1,33 +1,52 @@
 import React from "react";
 import logo from "../../assets/Logo.svg";
-import { NavigationContainerStyle, NavigationIconStyle, NavigationLinksListStyle } from "./Navbar.style";
-import { Link } from "react-router-dom";
+import {
+  AssistanceContainerStyle,
+  AssistanceIconStyle,
+  AssistancePhoneStyle,
+  AssistanceTextContainerStyle,
+  AssistanceTextStyle,
+  NavigationContainerStyle,
+  NavigationIconStyle,
+  NavigationLinksListStyle,
+  NavigationLinksStyle,
+  RightNavigationStyle,
+  StyledLink,
+} from "./Navbar.style";
+import assistanceIcon from "../../assets/assistanceIcon.svg";
+import line from "../../assets/Line.svg";
 
 export const Navbar = () => {
   return (
     <NavigationContainerStyle>
       <NavigationIconStyle src={logo} />
-      <div>
+      <RightNavigationStyle>
         <NavigationLinksListStyle>
+          <NavigationLinksStyle>
+            <StyledLink to="/">Home</StyledLink>
+          </NavigationLinksStyle>
           <li>
-            <Link to="/">Home</Link>
-            Home
+            <StyledLink to="/about">About us</StyledLink>
           </li>
           <li>
-            <Link to="/about">About us</Link>
+            <StyledLink to="/services">Services</StyledLink>
           </li>
           <li>
-            <Link to="/services">Services</Link>
+            <StyledLink to="/blog">Blog</StyledLink>
           </li>
           <li>
-            <Link to="/blog">Blog</Link>
-          </li>
-          <li>
-            <Link to="/contact">Contact</Link>
+            <StyledLink to="/contact">Contact</StyledLink>
           </li>
         </NavigationLinksListStyle>
-        <div></div>
-      </div>
+        <img src={line} />
+        <AssistanceContainerStyle>
+          <AssistanceIconStyle src={assistanceIcon} />
+          <AssistanceTextContainerStyle>
+            <AssistanceTextStyle>Road Assistance</AssistanceTextStyle>
+            <AssistancePhoneStyle>1800 265 24 52</AssistancePhoneStyle>
+          </AssistanceTextContainerStyle>
+        </AssistanceContainerStyle>
+      </RightNavigationStyle>
     </NavigationContainerStyle>
   );
 };
