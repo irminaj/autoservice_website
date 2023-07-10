@@ -2,7 +2,7 @@ import styled from "styled-components";
 import { Link } from "react-router-dom";
 
 export const NavigationContainerStyle = styled.div`
-  width: 80%;
+  width: 85%;
   padding: 30px 0;
   margin: 0 auto;
   display: flex;
