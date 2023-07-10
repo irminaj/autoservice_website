@@ -16,6 +16,7 @@ import ServiceIcon from "../../assets/ServiceIcon.svg";
 import ExpertIcon from "../../assets/ExpertIcon.svg";
 import PriceIcon from "../../assets/PriceIcon.svg";
 import Arrow from "../../assets/Arrow.svg";
+import { HomeForm } from "../forms/HomeForm/HomeForm";
 
 export const Quote = () => {
   return (
@@ -51,7 +52,9 @@ export const Quote = () => {
             <img src={Arrow} alt="arrow" />
           </LinkContainerStyle>
         </QuoteLeftContainerStyle>
-        <QuoteRightContainerStyle></QuoteRightContainerStyle>
+        <QuoteRightContainerStyle>
+          <HomeForm />
+        </QuoteRightContainerStyle>
       </QuoteWrapperStyle>
     </QuoteSectionStyle>
   );

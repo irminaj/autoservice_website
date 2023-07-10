@@ -8,6 +8,7 @@ export const QuoteWrapperStyle = styled.div`
   width: 80%;
   display: flex;
   margin: 0 auto;
+  padding: 80px 0;
 `;
 
 export const QuoteLeftContainerStyle = styled.div`
@@ -21,6 +22,7 @@ export const QuoteHeaderStyle = styled.h2`
 export const ServiceListContainerStyle = styled.ul`
   list-style: none;
   padding-left: 0;
+  padding-right: 160px;
 `;
 
 export const ServiceTitleContainerStyle = styled.div`
@@ -56,4 +58,5 @@ export const LinkTextStyle = styled.p`
 
 export const QuoteRightContainerStyle = styled.div`
   width: 50%;
+  padding-left: 100px;
 `;
