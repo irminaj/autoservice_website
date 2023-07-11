@@ -1,7 +1,7 @@
 import { styled } from "styled-components";
 
 export const OfferSectionWrapperStyle = styled.div`
-  background-color: ${(props) => props.theme.colors.steelGrey};
+  background-color: ${(props) => props.theme.colors.lightGrey};
 `;
 
 export const OfferSectionContainerStyle = styled.div`
