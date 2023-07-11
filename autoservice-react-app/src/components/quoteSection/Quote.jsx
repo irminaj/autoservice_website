@@ -9,14 +9,12 @@ import {
   ServiceTitleContainerStyle,
   ServiceTitlteTextStyle,
   ServiceDescriptionTextStyle,
-  LinkContainerStyle,
-  LinkTextStyle,
 } from "./Quote.style";
 import ServiceIcon from "../../assets/ServiceIcon.svg";
 import ExpertIcon from "../../assets/ExpertIcon.svg";
 import PriceIcon from "../../assets/PriceIcon.svg";
-import Arrow from "../../assets/Arrow.svg";
 import { HomeForm } from "../forms/HomeForm/HomeForm";
+import { ArrowLink } from "../arrowLink/ArrowLink";
 
 export const Quote = () => {
   return (
@@ -47,10 +45,7 @@ export const Quote = () => {
               <ServiceDescriptionTextStyle>Through True Rich Attended does no end it his mother since real had half every him.</ServiceDescriptionTextStyle>
             </li>
           </ServiceListContainerStyle>
-          <LinkContainerStyle>
-            <LinkTextStyle>Know more about us</LinkTextStyle>
-            <img src={Arrow} alt="arrow" />
-          </LinkContainerStyle>
+          <ArrowLink text={"Know more about us"} />
         </QuoteLeftContainerStyle>
         <QuoteRightContainerStyle>
           <HomeForm />
