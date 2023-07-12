@@ -4,6 +4,7 @@ import { Quote } from "../../components/quoteSection/Quote";
 import { ProcessSection } from "../../components/processSection/ProcessSection";
 import { Offer } from "../../components/offerSection/Offer";
 import { CTA } from "../../components/cta/CTA";
+import { Experience } from "../../components/experienceSection/Experience";
 
 export const Home = () => {
   return (
@@ -13,6 +14,7 @@ export const Home = () => {
       <ProcessSection />
       <Offer />
       <CTA />
+      <Experience />
     </div>
   );
 };
