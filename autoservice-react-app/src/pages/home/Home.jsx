@@ -6,6 +6,7 @@ import { Offer } from "../../components/offerSection/Offer";
 import { CTA } from "../../components/cta/CTA";
 import { Experience } from "../../components/experienceSection/Experience";
 import { Brands } from "../../components/brandsSection/Brands";
+import { Testimonials } from "../../components/testimonialsSection/Testimonials";
 
 export const Home = () => {
   return (
@@ -17,6 +18,7 @@ export const Home = () => {
       <CTA />
       <Experience />
       <Brands />
+      <Testimonials />
     </div>
   );
 };
