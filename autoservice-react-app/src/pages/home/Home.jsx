@@ -7,6 +7,7 @@ import { CTA } from "../../components/cta/CTA";
 import { Experience } from "../../components/experienceSection/Experience";
 import { Brands } from "../../components/brandsSection/Brands";
 import { Testimonials } from "../../components/testimonialsSection/Testimonials";
+import { FAQ } from "../../components/faqSection/FAQ";
 
 export const Home = () => {
   return (
@@ -19,6 +20,7 @@ export const Home = () => {
       <Experience />
       <Brands />
       <Testimonials />
+      <FAQ />
     </div>
   );
 };
