@@ -16,10 +16,10 @@ export const ServicesHeaderTextStyle = styled.div`
   justify-content: center;
   gap: 40px;
   position: absolute;
-  width: 39%;
+  width: 37%;
   height: 530px;
   padding: 10px 60px;
-  margin-left: 500px;
+  margin-left: 35%;
 `;
 
 export const ServicesHeaderTitleStyle = styled.h1`
