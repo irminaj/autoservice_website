@@ -1,7 +1,10 @@
 import { styled } from "styled-components";
+import { Link } from "react-router-dom";
 
-export const LinkContainerStyle = styled.div`
+export const LinkContainerStyle = styled(Link)`
   display: flex;
+  text-decoration: none;
+  color: ${(props) => props.theme.colors.black};
 `;
 
 export const LinkTextStyle = styled.p`

@@ -1,6 +1,5 @@
 import React from "react";
 import {
-  ServicesSectionArrowLink,
   ServicesSectionContainerStyle,
   ServicesSectionDescriptionStyle,
   ServicesSectionLeftStyle,
@@ -29,7 +28,7 @@ export const ServicesSection = () => {
             Through True Rich Attended does no end it his mother since favourable real had half every him case in packages enquire we up ecstatic. Through True Rich Attended does
             no end it his mother.
           </ServicesSectionDescriptionStyle>
-          <ArrowLink text={"See service details"} />
+          <ArrowLink text={"See service details"} linkTo={"/service"} />
         </ServicesSectionLeftStyle>
         <ServicesSectionRightStyle>
           <SelectedIconBox source={WhiteCarIcon} title={"Auto Diagnostics"} />

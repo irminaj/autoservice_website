@@ -3,10 +3,10 @@ import Arrow from "../../assets/Arrow.svg";
 import { LinkContainerStyle } from "./ArrowLink.style";
 import { LinkTextStyle } from "./ArrowLink.style";
 
-export const ArrowLink = ({ text }) => {
+export const ArrowLink = ({ text, linkTo }) => {
   return (
     <>
-      <LinkContainerStyle>
+      <LinkContainerStyle to={linkTo}>
         <LinkTextStyle>{text}</LinkTextStyle>
         <img src={Arrow} alt="arrow" />
       </LinkContainerStyle>
