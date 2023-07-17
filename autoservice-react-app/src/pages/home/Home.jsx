@@ -8,6 +8,7 @@ import { Experience } from "../../components/experienceSection/Experience";
 import { Brands } from "../../components/brandsSection/Brands";
 import { Testimonials } from "../../components/testimonialsSection/Testimonials";
 import { FAQ } from "../../components/faqSection/FAQ";
+import { FooterHero } from "../../components/footer/footerHero/FooterHero";
 
 export const Home = () => {
   return (
@@ -21,6 +22,7 @@ export const Home = () => {
       <Brands />
       <Testimonials />
       <FAQ />
+      <FooterHero />
     </div>
   );
 };
