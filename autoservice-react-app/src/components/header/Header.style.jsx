@@ -13,6 +13,7 @@ export const HeaderTextContainer = styled.div`
   flex-direction: column;
   height: 452px;
   justify-content: space-between;
+  padding-right: 30px;
 `;
 
 export const HeaderTextStyle = styled.h1`

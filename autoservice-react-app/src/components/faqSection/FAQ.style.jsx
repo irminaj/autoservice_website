@@ -13,9 +13,17 @@ export const FaqContainerStyle = styled.div`
   flex-direction: column;
 `;
 
+export const FaqHeadingStyle = styled.h3`
+  font-family: ${(props) => props.theme.fontFamily[0]};
+  font-size: ${(props) => props.theme.fontSizes.h3};
+  font-weight: ${(props) => props.theme.fontWeight.bold};
+  text-align: center;
+`;
+
 export const AnswerTextStyle = styled.p`
   font-family: ${(props) => props.theme.fontFamily[0]};
   font-size: ${(props) => props.theme.fontSizes.p1};
   font-weight: ${(props) => props.theme.fontWeight.semiBold};
+  color: #939191;
   width: 80%;
 `;

@@ -2,13 +2,13 @@ import React from "react";
 import { Question } from "../question/Question";
 import ContractIcon from "../../assets/icons/ContractIcon.svg";
 import SpreadIcon from "../../assets/icons/SpreadIcon.svg";
-import { AnswerTextStyle, FaqContainerStyle, FaqSectionWrapperStyle } from "./FAQ.style";
+import { AnswerTextStyle, FaqContainerStyle, FaqSectionWrapperStyle, FaqHeadingStyle } from "./FAQ.style";
 
 export const FAQ = () => {
   return (
     <FaqSectionWrapperStyle>
       <FaqContainerStyle>
-        <h2>FQ</h2>
+        <FaqHeadingStyle>Frequently asked Questions</FaqHeadingStyle>
         <Question
           questionText={"How long should a car repair take?"}
           imgSrc={ContractIcon}
