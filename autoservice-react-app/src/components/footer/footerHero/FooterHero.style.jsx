@@ -2,6 +2,7 @@ import { styled } from "styled-components";
 
 export const FooterHeroWrapperStyle = styled.div`
   background-color: ${(props) => props.theme.colors.black};
+  opacity: 98%;
   padding: 80px 0;
 `;
 

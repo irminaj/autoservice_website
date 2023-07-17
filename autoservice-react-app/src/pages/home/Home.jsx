@@ -9,6 +9,7 @@ import { Brands } from "../../components/brandsSection/Brands";
 import { Testimonials } from "../../components/testimonialsSection/Testimonials";
 import { FAQ } from "../../components/faqSection/FAQ";
 import { FooterHero } from "../../components/footer/footerHero/FooterHero";
+import { BottomNavbar } from "../../components/footer/bottomNavbar/BottomNavbar";
 
 export const Home = () => {
   return (
@@ -23,6 +24,7 @@ export const Home = () => {
       <Testimonials />
       <FAQ />
       <FooterHero />
+      <BottomNavbar />
     </div>
   );
 };
