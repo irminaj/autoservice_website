@@ -36,7 +36,7 @@ export const ProcessListDescriptionContainerStyle = styled.div`
 export const ProcessTitleTextStyle = styled.p`
   font-family: ${(props) => props.theme.fontFamily[0]};
   font-size: ${(props) => props.theme.fontSizes.t1};
-  font-weight: ${(props) => props.theme.fontWeight.semibold};
+  font-weight: ${(props) => props.theme.fontWeight.semiBold};
   margin: 0;
 `;
 
