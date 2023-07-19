@@ -10,12 +10,12 @@ import {
   WorkingHoursLowerTextStyle,
   WorkingHoursTextContainerStyle,
   WorkingHoursTopTextStyle,
-} from "./Header.style";
+} from "./HomeHeader.style";
 import HeaderImage from "../../assets/HeaderImage.svg";
 import { PrimaryButton } from "../buttons/primaryButton/PrimaryButton";
 import ClockIcon from "../../assets/ClockIcon.svg";
 
-export const Header = () => {
+export const HomeHeader = () => {
   return (
     <HeaderWrapperStyle>
       <HeaderTextContainer>

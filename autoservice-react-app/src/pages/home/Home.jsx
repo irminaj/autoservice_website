@@ -1,5 +1,4 @@
 import React from "react";
-import { Header } from "../../components/header/Header";
 import { Quote } from "../../components/quoteSection/Quote";
 import { ProcessSection } from "../../components/processSection/ProcessSection";
 import { Offer } from "../../components/offerSection/Offer";
@@ -10,11 +9,12 @@ import { Testimonials } from "../../components/testimonialsSection/Testimonials"
 import { FAQ } from "../../components/faqSection/FAQ";
 import { FooterHero } from "../../components/footer/footerHero/FooterHero";
 import { BottomNavbar } from "../../components/footer/bottomNavbar/BottomNavbar";
+import { HomeHeader } from "../../components/homeHeader/HomeHeader";
 
 export const Home = () => {
   return (
     <div>
-      <Header />
+      <HomeHeader />
       <Quote />
       <ProcessSection />
       <Offer />
